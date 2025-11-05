@@ -1,6 +1,6 @@
 {
   "name": "@alextfernandes/checkvest",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Validate if a person in an image is wearing a vest using TensorFlow Lite",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

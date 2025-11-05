@@ -14,7 +14,14 @@
     "pretty": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "skipLibCheck": true,
+    "types": [],
+    "typeRoots": ["./node_modules/@types"]
   },
+  "exclude": [
+    "node_modules/@types/node",
+    "node_modules/**/@types/node"
+  ],
   "files": ["src/index.ts"]
 }

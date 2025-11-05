@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.odc.plugins.checkvest-release-25:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/alexfernandes/.gradle/caches/8.11.1/transforms/3c7457cdb6fb77b982c7077db2ad9499/transformed/appcompat-1.7.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.odc.plugins.checkvest-mergeReleaseResources-23:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/alexfernandes/.gradle/caches/8.11.1/transforms/3c7457cdb6fb77b982c7077db2ad9499/transformed/appcompat-1.7.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
