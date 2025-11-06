@@ -17,9 +17,25 @@
         ],
         "returns": "Promise<{ value: string; }>",
         "tags": [],
-        "docs": "",
+        "docs": "Simple echo test.",
         "complexTypes": [],
         "slug": "echo"
+      },
+      {
+        "name": "checkHasVest",
+        "signature": "(options: { imageBase64: string; showLogs?: boolean; }) => Promise<{ hasVest: boolean; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ imageBase64: string; showLogs?: boolean | undefined; }"
+          }
+        ],
+        "returns": "Promise<{ hasVest: boolean; }>",
+        "tags": [],
+        "docs": "Runs vest detection on a Base64 image.",
+        "complexTypes": [],
+        "slug": "checkhasvest"
       }
     ],
     "properties": []

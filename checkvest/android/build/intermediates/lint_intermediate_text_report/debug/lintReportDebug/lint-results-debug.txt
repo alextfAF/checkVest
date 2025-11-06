@@ -1,4 +1,4 @@
-/Users/alexfernandes/Documents/Coding/DEV/odcpluginv2/checkVest/checkvest/android/build.gradle:14: Warning: A newer version of com.android.tools.build:gradle than 8.7.2 is available: 8.13.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.13.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
+/Users/alexfernandes/Documents/Coding/DEV/odcpluginv2/checkVest/checkvest/android/build.gradle:16: Warning: A newer version of com.android.tools.build:gradle than 8.7.2 is available: 8.13.0. (There is also a newer version of 8.7.𝑥 available, if upgrading to 8.13.0 is difficult: 8.7.3) [AndroidGradlePluginVersion]
         classpath 'com.android.tools.build:gradle:8.7.2'
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -9,9 +9,15 @@
    with an older version. However, you may simply not be aware that a more
    recent version is available, and that is what this lint check helps find.
 
-/Users/alexfernandes/Documents/Coding/DEV/odcpluginv2/checkVest/checkvest/android/build.gradle:54: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1 [GradleDependency]
+/Users/alexfernandes/Documents/Coding/DEV/odcpluginv2/checkVest/checkvest/android/build.gradle:58: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1 [GradleDependency]
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/alexfernandes/Documents/Coding/DEV/odcpluginv2/checkVest/checkvest/android/build.gradle:59: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0 [GradleDependency]
+    implementation "androidx.core:core-ktx:1.13.1"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/alexfernandes/Documents/Coding/DEV/odcpluginv2/checkVest/checkvest/android/build.gradle:62: Warning: A newer version of org.tensorflow:tensorflow-lite than 2.12.0 is available: 2.13.0 [GradleDependency]
+    implementation 'org.tensorflow:tensorflow-lite:2.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "GradleDependency":
    This detector looks for usages of libraries where the version you are using
@@ -20,4 +26,4 @@
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-0 errors, 2 warnings
+0 errors, 4 warnings

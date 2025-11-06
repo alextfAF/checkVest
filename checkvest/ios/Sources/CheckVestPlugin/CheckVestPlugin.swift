@@ -10,7 +10,8 @@ public class CheckVestPlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "CheckVestPlugin"
     public let jsName = "CheckVest"
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "echo", returnType: CAPPluginReturnPromise)
+        CAPPluginMethod(name: "echo", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "checkHasVest", returnType: CAPPluginReturnPromise)
     ]
     private let implementation = CheckVest()
 
@@ -18,6 +19,17 @@ public class CheckVestPlugin: CAPPlugin, CAPBridgedPlugin {
         let value = call.getString("value") ?? ""
         call.resolve([
             "value": implementation.echo(value)
+        ])
+    }
+    
+    @objc func checkHasVest(_ call: CAPPluginCall) {
+        let imageBase64 = call.getString("imageBase64") ?? ""
+        let showLogs = call.getBool("showLogs") ?? false
+        
+        let hasVest = implementation.checkHasVest(imageBase64: imageBase64, showLogs: showLogs)
+        
+        call.resolve([
+            "hasVest": hasVest
         ])
     }
 }

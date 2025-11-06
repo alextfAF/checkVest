@@ -8,8 +8,12 @@ const CheckVest = core.registerPlugin('CheckVest', {
 
 class CheckVestWeb extends core.WebPlugin {
     async echo(options) {
-        console.log('ECHO', options);
+        console.warn('CheckVest.echo() called on web');
         return options;
+    }
+    async checkHasVest(_) {
+        console.warn('CheckVest.checkHasVest() called on web (not implemented)');
+        return { hasVest: false };
     }
 }
 

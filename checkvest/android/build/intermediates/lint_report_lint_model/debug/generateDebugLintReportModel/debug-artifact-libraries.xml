@@ -133,6 +133,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.core:core:1.15.0@aar"
+      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/681a94c836dd4d203c875c71107643fd/transformed/core-1.15.0/jars/classes.jar"
+      resolved="androidx.core:core:1.15.0"
+      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/681a94c836dd4d203c875c71107643fd/transformed/core-1.15.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.lifecycle:lifecycle-livedata:2.6.2@aar"
       jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/10a874107c3b392b095b727b7df7291c/transformed/lifecycle-livedata-2.6.2/jars/classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata:2.6.2"
@@ -215,10 +228,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.core:core:1.15.0@aar"
-      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/681a94c836dd4d203c875c71107643fd/transformed/core-1.15.0/jars/classes.jar"
-      resolved="androidx.core:core:1.15.0"
-      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/681a94c836dd4d203c875c71107643fd/transformed/core-1.15.0"
+      name="org.tensorflow:tensorflow-lite-support:0.4.4@aar"
+      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/d85f33c814cd553c1dd862d2b9b374aa/transformed/tensorflow-lite-support-0.4.4/jars/classes.jar"
+      resolved="org.tensorflow:tensorflow-lite-support:0.4.4"
+      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/d85f33c814cd553c1dd862d2b9b374aa/transformed/tensorflow-lite-support-0.4.4"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -227,6 +240,23 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="org.tensorflow:tensorflow-lite:2.13.0@aar"
+      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/f9653583423442f86e2398f2e4ba93c5/transformed/tensorflow-lite-2.13.0/jars/classes.jar"
+      resolved="org.tensorflow:tensorflow-lite:2.13.0"
+      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/f9653583423442f86e2398f2e4ba93c5/transformed/tensorflow-lite-2.13.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.tensorflow:tensorflow-lite-metadata:0.4.4@jar"
+      jars="/Users/alexfernandes/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-lite-metadata/0.4.4/5c48399819c77d0e9984c96b773fdf0062e0af7c/tensorflow-lite-metadata-0.4.4.jar"
+      resolved="org.tensorflow:tensorflow-lite-metadata:0.4.4"/>
   <library
       name="androidx.savedstate:savedstate:1.2.1@aar"
       jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/3f9dbbc4651957c560dd5873c3bfdcc2/transformed/savedstate-1.2.1/jars/classes.jar"
@@ -341,6 +371,53 @@
       name="org.jetbrains:annotations:13.0@jar"
       jars="/Users/alexfernandes/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
       resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="org.tensorflow:tensorflow-lite-support-api:0.4.4@aar"
+      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/6e35659a3552dece59af44a702f42b4d/transformed/tensorflow-lite-support-api-0.4.4/jars/classes.jar"
+      resolved="org.tensorflow:tensorflow-lite-support-api:0.4.4"
+      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/6e35659a3552dece59af44a702f42b4d/transformed/tensorflow-lite-support-api-0.4.4"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.tensorflow:tensorflow-lite-api:2.13.0@aar"
+      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/9d250eb7f6ed7ab9231f5bd9299907f1/transformed/tensorflow-lite-api-2.13.0/jars/classes.jar"
+      resolved="org.tensorflow:tensorflow-lite-api:2.13.0"
+      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/9d250eb7f6ed7ab9231f5bd9299907f1/transformed/tensorflow-lite-api-2.13.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.checkerframework:checker-qual:2.5.8@jar"
+      jars="/Users/alexfernandes/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.5.8/41c6fa63cba0fea55ebd3581d42b3d2c5cca98b2/checker-qual-2.5.8.jar"
+      resolved="org.checkerframework:checker-qual:2.5.8"/>
+  <library
+      name="com.google.android.odml:image:1.0.0-beta1@aar"
+      jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/0a003f1374f8ee7760c9299f0d579314/transformed/image-1.0.0-beta1/jars/classes.jar"
+      resolved="com.google.android.odml:image:1.0.0-beta1"
+      folder="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/0a003f1374f8ee7760c9299f0d579314/transformed/image-1.0.0-beta1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.flatbuffers:flatbuffers-java:1.12.0@jar"
+      jars="/Users/alexfernandes/.gradle/caches/modules-2/files-2.1/com.google.flatbuffers/flatbuffers-java/1.12.0/8201cc7b511177a37071249e891f2f2fea4b32e9/flatbuffers-java-1.12.0.jar"
+      resolved="com.google.flatbuffers:flatbuffers-java:1.12.0"/>
   <library
       name="androidx.coordinatorlayout:coordinatorlayout:1.2.0@aar"
       jars="/Users/alexfernandes/.gradle/caches/8.11.1/transforms/8edd827a7ab96ee2f491aba0486b949c/transformed/coordinatorlayout-1.2.0/jars/classes.jar"

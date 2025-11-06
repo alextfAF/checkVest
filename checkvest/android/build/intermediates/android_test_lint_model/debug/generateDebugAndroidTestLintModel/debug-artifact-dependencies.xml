@@ -1,6 +1,6 @@
 <dependencies>
   <compile
-      roots=":@@:::debug,androidx.test.ext:junit:1.2.1@aar,androidx.test.espresso:espresso-core:3.6.1@aar,:@@:capacitor-android::debug,androidx.appcompat:appcompat-resources:1.7.0@aar,androidx.appcompat:appcompat:1.7.0@aar,androidx.test:runner:1.6.1@aar,androidx.test.services:storage:1.5.0@aar,androidx.test:core:1.6.1@aar,androidx.test:monitor:1.7.1@aar,androidx.concurrent:concurrent-futures-ktx:1.1.0@jar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.fragment:fragment:1.8.4@aar,androidx.activity:activity:1.9.2@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.2@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-runtime:2.6.2@aar,androidx.lifecycle:lifecycle-common:2.6.2@jar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar,androidx.core:core-ktx:1.15.0@aar,androidx.core:core:1.15.0@aar,androidx.core:core:1.15.0@aar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.collection:collection-jvm:1.4.2@jar,androidx.annotation:annotation-jvm:1.8.1@jar,androidx.annotation:annotation-experimental:1.4.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25@jar,org.jetbrains.kotlin:kotlin-stdlib:1.9.25@jar,org.jetbrains:annotations:23.0.0@jar,androidx.tracing:tracing:1.2.0@aar,com.google.guava:listenablefuture:1.0@jar,junit:junit:4.13.2@jar,org.hamcrest:hamcrest-library:1.3@jar,org.hamcrest:hamcrest-core:1.3@jar,androidx.test.espresso:espresso-idling-resource:3.6.1@aar,com.google.code.findbugs:jsr305:3.0.2@jar,com.google.errorprone:error_prone_annotations:2.18.0@jar,javax.inject:javax.inject:1@jar">
+      roots=":@@:::debug,androidx.test.ext:junit:1.2.1@aar,androidx.test.espresso:espresso-core:3.6.1@aar,:@@:capacitor-android::debug,androidx.appcompat:appcompat-resources:1.7.0@aar,androidx.appcompat:appcompat:1.7.0@aar,androidx.fragment:fragment:1.8.4@aar,androidx.activity:activity:1.9.2@aar,androidx.test:core:1.6.1@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.core:core:1.15.0@aar,androidx.core:core:1.15.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.2@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-runtime:2.6.2@aar,androidx.lifecycle:lifecycle-common:2.6.2@jar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar,androidx.core:core-ktx:1.15.0@aar,org.tensorflow:tensorflow-lite-support:0.4.4@aar,org.tensorflow:tensorflow-lite:2.13.0@aar,org.tensorflow:tensorflow-lite-metadata:0.4.4@jar,androidx.test:runner:1.6.1@aar,androidx.test.services:storage:1.5.0@aar,androidx.test:monitor:1.7.1@aar,androidx.concurrent:concurrent-futures-ktx:1.1.0@jar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,androidx.collection:collection-jvm:1.4.2@jar,androidx.annotation:annotation-jvm:1.8.1@jar,androidx.annotation:annotation-experimental:1.4.1@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25@jar,org.jetbrains.kotlin:kotlin-stdlib:1.9.25@jar,org.jetbrains:annotations:23.0.0@jar,androidx.tracing:tracing:1.2.0@aar,com.google.guava:listenablefuture:1.0@jar,junit:junit:4.13.2@jar,org.hamcrest:hamcrest-library:1.3@jar,org.hamcrest:hamcrest-core:1.3@jar,androidx.test.espresso:espresso-idling-resource:3.6.1@aar,com.google.code.findbugs:jsr305:3.0.2@jar,com.google.errorprone:error_prone_annotations:2.18.0@jar,javax.inject:javax.inject:1@jar,org.tensorflow:tensorflow-lite-support-api:0.4.4@aar,org.tensorflow:tensorflow-lite-api:2.13.0@aar,org.checkerframework:checker-qual:2.5.8@jar,com.google.android.odml:image:1.0.0-beta1@aar,com.google.flatbuffers:flatbuffers-java:1.12.0@jar">
     <dependency
         name=":@@:::debug"
         simpleName=":CheckVest"/>
@@ -20,29 +20,14 @@
         name="androidx.appcompat:appcompat:1.7.0@aar"
         simpleName="androidx.appcompat:appcompat"/>
     <dependency
-        name="androidx.test:runner:1.6.1@aar"
-        simpleName="androidx.test:runner"/>
-    <dependency
-        name="androidx.test.services:storage:1.5.0@aar"
-        simpleName="androidx.test.services:storage"/>
-    <dependency
-        name="androidx.test:core:1.6.1@aar"
-        simpleName="androidx.test:core"/>
-    <dependency
-        name="androidx.test:monitor:1.7.1@aar"
-        simpleName="androidx.test:monitor"/>
-    <dependency
-        name="androidx.concurrent:concurrent-futures-ktx:1.1.0@jar"
-        simpleName="androidx.concurrent:concurrent-futures-ktx"/>
-    <dependency
-        name="androidx.concurrent:concurrent-futures:1.1.0@jar"
-        simpleName="androidx.concurrent:concurrent-futures"/>
-    <dependency
         name="androidx.fragment:fragment:1.8.4@aar"
         simpleName="androidx.fragment:fragment"/>
     <dependency
         name="androidx.activity:activity:1.9.2@aar"
         simpleName="androidx.activity:activity"/>
+    <dependency
+        name="androidx.test:core:1.6.1@aar"
+        simpleName="androidx.test:core"/>
     <dependency
         name="androidx.drawerlayout:drawerlayout:1.0.0@aar"
         simpleName="androidx.drawerlayout:drawerlayout"/>
@@ -61,6 +46,9 @@
     <dependency
         name="androidx.loader:loader:1.0.0@aar"
         simpleName="androidx.loader:loader"/>
+    <dependency
+        name="androidx.core:core:1.15.0@aar"
+        simpleName="androidx.core:core"/>
     <dependency
         name="androidx.lifecycle:lifecycle-livedata:2.6.2@aar"
         simpleName="androidx.lifecycle:lifecycle-livedata"/>
@@ -83,8 +71,29 @@
         name="androidx.core:core-ktx:1.15.0@aar"
         simpleName="androidx.core:core-ktx"/>
     <dependency
-        name="androidx.core:core:1.15.0@aar"
-        simpleName="androidx.core:core"/>
+        name="org.tensorflow:tensorflow-lite-support:0.4.4@aar"
+        simpleName="org.tensorflow:tensorflow-lite-support"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite:2.13.0@aar"
+        simpleName="org.tensorflow:tensorflow-lite"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite-metadata:0.4.4@jar"
+        simpleName="org.tensorflow:tensorflow-lite-metadata"/>
+    <dependency
+        name="androidx.test:runner:1.6.1@aar"
+        simpleName="androidx.test:runner"/>
+    <dependency
+        name="androidx.test.services:storage:1.5.0@aar"
+        simpleName="androidx.test.services:storage"/>
+    <dependency
+        name="androidx.test:monitor:1.7.1@aar"
+        simpleName="androidx.test:monitor"/>
+    <dependency
+        name="androidx.concurrent:concurrent-futures-ktx:1.1.0@jar"
+        simpleName="androidx.concurrent:concurrent-futures-ktx"/>
+    <dependency
+        name="androidx.concurrent:concurrent-futures:1.1.0@jar"
+        simpleName="androidx.concurrent:concurrent-futures"/>
     <dependency
         name="androidx.cursoradapter:cursoradapter:1.0.0@aar"
         simpleName="androidx.cursoradapter:cursoradapter"/>
@@ -157,9 +166,24 @@
     <dependency
         name="javax.inject:javax.inject:1@jar"
         simpleName="javax.inject:javax.inject"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite-support-api:0.4.4@aar"
+        simpleName="org.tensorflow:tensorflow-lite-support-api"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite-api:2.13.0@aar"
+        simpleName="org.tensorflow:tensorflow-lite-api"/>
+    <dependency
+        name="org.checkerframework:checker-qual:2.5.8@jar"
+        simpleName="org.checkerframework:checker-qual"/>
+    <dependency
+        name="com.google.android.odml:image:1.0.0-beta1@aar"
+        simpleName="com.google.android.odml:image"/>
+    <dependency
+        name="com.google.flatbuffers:flatbuffers-java:1.12.0@jar"
+        simpleName="com.google.flatbuffers:flatbuffers-java"/>
   </compile>
   <package
-      roots=":@@:::debug,androidx.test.ext:junit:1.2.1@aar,androidx.test.espresso:espresso-core:3.6.1@aar,androidx.test:runner:1.6.1@aar,androidx.test.services:storage:1.5.0@aar,androidx.test:core:1.6.1@aar,androidx.test:monitor:1.7.1@aar,androidx.concurrent:concurrent-futures-ktx:1.1.0@jar,:@@:capacitor-android::debug,androidx.appcompat:appcompat-resources:1.7.0@aar,androidx.appcompat:appcompat:1.7.0@aar,androidx.fragment:fragment:1.8.4@aar,androidx.activity:activity:1.9.2@aar,androidx.coordinatorlayout:coordinatorlayout:1.2.0@aar,androidx.webkit:webkit:1.12.1@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.emoji2:emoji2-views-helper:1.3.0@aar,androidx.emoji2:emoji2:1.3.0@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.loader:loader:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-process:2.6.2@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.2@aar,androidx.lifecycle:lifecycle-common:2.6.2@jar,androidx.lifecycle:lifecycle-runtime:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar,androidx.core:core-ktx:1.15.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.core:core:1.15.0@aar,androidx.core:core:1.15.0@aar,androidx.profileinstaller:profileinstaller:1.3.1@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.2.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection-jvm:1.4.2@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,junit:junit:4.13.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25@jar,androidx.annotation:annotation-experimental:1.4.1@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25@jar,androidx.annotation:annotation-jvm:1.8.1@jar,org.jetbrains.kotlin:kotlin-stdlib:1.9.25@jar,androidx.test.espresso:espresso-idling-resource:3.6.1@aar,com.google.code.findbugs:jsr305:3.0.2@jar,com.google.errorprone:error_prone_annotations:2.18.0@jar,com.google.guava:listenablefuture:1.0@jar,javax.inject:javax.inject:1@jar,org.hamcrest:hamcrest-library:1.3@jar,org.hamcrest:hamcrest-core:1.3@jar,org.jetbrains:annotations:23.0.0@jar,org.apache.cordova:framework:10.1.1@aar">
+      roots=":@@:::debug,androidx.test.ext:junit:1.2.1@aar,androidx.test.espresso:espresso-core:3.6.1@aar,androidx.test:runner:1.6.1@aar,androidx.test.services:storage:1.5.0@aar,androidx.test:core:1.6.1@aar,androidx.test:monitor:1.7.1@aar,androidx.concurrent:concurrent-futures-ktx:1.1.0@jar,:@@:capacitor-android::debug,androidx.appcompat:appcompat-resources:1.7.0@aar,androidx.appcompat:appcompat:1.7.0@aar,androidx.fragment:fragment:1.8.4@aar,androidx.activity:activity:1.9.2@aar,androidx.coordinatorlayout:coordinatorlayout:1.2.0@aar,androidx.webkit:webkit:1.12.1@aar,androidx.drawerlayout:drawerlayout:1.0.0@aar,androidx.emoji2:emoji2-views-helper:1.3.0@aar,androidx.emoji2:emoji2:1.3.0@aar,androidx.savedstate:savedstate:1.2.1@aar,androidx.loader:loader:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel:2.6.2@aar,androidx.lifecycle:lifecycle-process:2.6.2@aar,androidx.lifecycle:lifecycle-livedata-core:2.6.2@aar,androidx.lifecycle:lifecycle-common:2.6.2@jar,androidx.lifecycle:lifecycle-runtime:2.6.2@aar,androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar,androidx.core:core-ktx:1.15.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.vectordrawable:vectordrawable-animated:1.1.0@aar,androidx.vectordrawable:vectordrawable:1.1.0@aar,androidx.core:core:1.15.0@aar,androidx.core:core:1.15.0@aar,androidx.profileinstaller:profileinstaller:1.3.1@aar,androidx.concurrent:concurrent-futures:1.1.0@jar,androidx.cursoradapter:cursoradapter:1.0.0@aar,androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar,androidx.startup:startup-runtime:1.1.1@aar,androidx.tracing:tracing:1.2.0@aar,androidx.interpolator:interpolator:1.0.0@aar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection-jvm:1.4.2@jar,androidx.arch.core:core-runtime:2.2.0@aar,androidx.arch.core:core-common:2.2.0@jar,junit:junit:4.13.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.1@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25@jar,androidx.annotation:annotation-experimental:1.4.1@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25@jar,androidx.annotation:annotation-jvm:1.8.1@jar,org.jetbrains.kotlin:kotlin-stdlib:1.9.25@jar,androidx.test.espresso:espresso-idling-resource:3.6.1@aar,com.google.code.findbugs:jsr305:3.0.2@jar,com.google.errorprone:error_prone_annotations:2.18.0@jar,com.google.guava:listenablefuture:1.0@jar,javax.inject:javax.inject:1@jar,org.hamcrest:hamcrest-library:1.3@jar,org.hamcrest:hamcrest-core:1.3@jar,org.tensorflow:tensorflow-lite-support:0.4.4@aar,org.tensorflow:tensorflow-lite:2.13.0@aar,org.tensorflow:tensorflow-lite-metadata:0.4.4@jar,org.jetbrains:annotations:23.0.0@jar,org.apache.cordova:framework:10.1.1@aar,org.tensorflow:tensorflow-lite-support-api:0.4.4@aar,org.tensorflow:tensorflow-lite-api:2.13.0@aar,org.checkerframework:checker-qual:2.5.8@jar,com.google.flatbuffers:flatbuffers-java:1.12.0@jar,com.google.android.odml:image:1.0.0-beta1@aar">
     <dependency
         name=":@@:::debug"
         simpleName=":CheckVest"/>
@@ -338,10 +362,34 @@
         name="org.hamcrest:hamcrest-core:1.3@jar"
         simpleName="org.hamcrest:hamcrest-core"/>
     <dependency
+        name="org.tensorflow:tensorflow-lite-support:0.4.4@aar"
+        simpleName="org.tensorflow:tensorflow-lite-support"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite:2.13.0@aar"
+        simpleName="org.tensorflow:tensorflow-lite"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite-metadata:0.4.4@jar"
+        simpleName="org.tensorflow:tensorflow-lite-metadata"/>
+    <dependency
         name="org.jetbrains:annotations:23.0.0@jar"
         simpleName="org.jetbrains:annotations"/>
     <dependency
         name="org.apache.cordova:framework:10.1.1@aar"
         simpleName="org.apache.cordova:framework"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite-support-api:0.4.4@aar"
+        simpleName="org.tensorflow:tensorflow-lite-support-api"/>
+    <dependency
+        name="org.tensorflow:tensorflow-lite-api:2.13.0@aar"
+        simpleName="org.tensorflow:tensorflow-lite-api"/>
+    <dependency
+        name="org.checkerframework:checker-qual:2.5.8@jar"
+        simpleName="org.checkerframework:checker-qual"/>
+    <dependency
+        name="com.google.flatbuffers:flatbuffers-java:1.12.0@jar"
+        simpleName="com.google.flatbuffers:flatbuffers-java"/>
+    <dependency
+        name="com.google.android.odml:image:1.0.0-beta1@aar"
+        simpleName="com.google.android.odml:image"/>
   </package>
 </dependencies>

@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`checkHasVest(...)`](#checkhasvest)
 
 </docgen-index>
 
@@ -26,11 +27,30 @@ npx cap sync
 echo(options: { value: string; }) => Promise<{ value: string; }>
 ```
 
+Simple echo test.
+
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ value: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### checkHasVest(...)
+
+```typescript
+checkHasVest(options: { imageBase64: string; showLogs?: boolean; }) => Promise<{ hasVest: boolean; }>
+```
+
+Runs vest detection on a Base64 image.
+
+| Param         | Type                                                      |
+| ------------- | --------------------------------------------------------- |
+| **`options`** | <code>{ imageBase64: string; showLogs?: boolean; }</code> |
+
+**Returns:** <code>Promise&lt;{ hasVest: boolean; }&gt;</code>
 
 --------------------
 

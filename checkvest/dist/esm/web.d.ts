@@ -6,4 +6,10 @@ export declare class CheckVestWeb extends WebPlugin implements CheckVestPlugin {
     }): Promise<{
         value: string;
     }>;
+    checkHasVest(_: {
+        imageBase64: string;
+        showLogs?: boolean;
+    }): Promise<{
+        hasVest: boolean;
+    }>;
 }
